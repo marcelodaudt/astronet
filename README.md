@@ -1,10 +1,11 @@
 # Astronet
 
-Este projeto foi desenvolvido como parte da conclusão do curso **MBA em Ciência de Dados do ICMC/USP**, e procurou estudar, compreender e implementar o projeto original desenvolvido por **Chris Shallue**: [@cshallue](https://github.com/cshallue).
+Este projeto foi desenvolvido como parte dos requisitos para obtenção do título de **Especialista em Ciências de Dados**, realizado no **Centro de Ciências Matemáticas Aplicadas à Indústria do Instituto de Ciências Matemáticas e de Computação**, **Universidade de São Paulo** - ICMC/USP, e procurou estudar, compreender e implementar o projeto original desenvolvido por **Chris Shallue**: [@cshallue](https://github.com/cshallue).
 
 O **Astronet** é um modelo de **Aprendizado de Máquina Profundo**, que utiliza **Redes Neurais Convolucionais** para a identificação de **Exoplanetes** a partir de dados (curvas de luz) gerados pelo **Telescópio Espacial Kepler**.
 
 Para desenvolvimento dos experimentos do **Astronet**, foi criada uma imagem em **Docker**, permitindo assim a reprodução e portabilidade dos experimentos realizados com o modelo. A imagem encontra-se diponível para *download* no [**DockerHub**](https://hub.docker.com/r/mdaudt/astronet-image) e já possuí o código do **Astronet** e demais pacotes necessários para seu funcionamento, como o Python 3.6 e TensorFlow 1.15.0.
+
 
 ---
 
