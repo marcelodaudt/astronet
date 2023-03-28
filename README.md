@@ -6,17 +6,48 @@ O **Astronet** é um modelo de **Aprendizado de Máquina Profundo**, que utiliza
 
 Para desenvolvimento dos experimentos do **Astronet**, foi criada uma imagem em **Docker**, permitindo assim a reprodução e portabilidade dos experimentos realizados com o modelo. A imagem encontra-se diponível para *download* no [**DockerHub**](https://hub.docker.com/r/mdaudt/astronet-image) e já possuí o código do **Astronet** e demais pacotes necessários para seu funcionamento, como o Python 3.6 e TensorFlow 1.15.0.
 
+---
+
+## Diretórios
+
+[astronet/](astronet/astronet/)
+
+* Uma rede neural para identificar exoplanetas em curvas de luz. Contém código para:
+  * Baixando e pré-processando as curvas de luz do Kepler.
+  * Construindo diferentes tipos de modelos de classificação de redes neurais.
+  * Treinamento e avaliação de um novo modelo.
+  * Usando um modelo treinado para gerar novas previsões.
+
+[astrowavenet/](astronet/astrowavenet/)
+
+* Um modelo generativo para curvas de luz.
+
+[light_curve/](astronet/light_curve)
+
+* Utilitários para operar em curvas de luz. Esses incluem:
+  * Lendo dados do Kepler a partir de arquivos `.fits`.
+  * Aplicando um filtro mediano para suavizar e normalizar uma curva de luz.
+  * Dobragem de fase, dividindo, removendo eventos periódicos, etc.
+* [light_curve/fast_ops/](exoplanet-ml/light_curve/fast_ops) contém operações de curva de luz C++ otimizadas.
+
+[tf_util/](astronet/tf_util)
+
+* Utilitários compartilhados do TensorFlow.
+
+[third_party/](astronet/third_party/)
+
+* Utilitários derivados de código de terceiros.
 
 ---
 
-# Citation
+# Citação
 
 Shallue, C. J., & Vanderburg, A. (2018). Identifying Exoplanets with Deep
 Learning: A Five-planet Resonant Chain around Kepler-80 and an Eighth Planet
 around Kepler-90. *The Astronomical Journal*, 155(2), 94.
 
-Full text available at [*The Astronomical Journal*](http://iopscience.iop.org/article/10.3847/1538-3881/aa9e09/meta).
+Texto completo disponível em [*The Astronomical Journal*](http://iopscience.iop.org/article/10.3847/1538-3881/aa9e09/meta).
 
-# Disclaimer
+# Aviso Legal
 
-This is not an official Google product.
+Este não é um produto oficial do Google.
