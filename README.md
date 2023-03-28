@@ -6,8 +6,6 @@ O **Astronet** é um modelo de **Aprendizado de Máquina Profundo**, que utiliza
 
 Para desenvolvimento dos experimentos do **Astronet**, foi criada uma imagem em **Docker**, permitindo assim a reprodução e portabilidade dos experimentos realizados com o modelo. A imagem encontra-se diponível para *download* no [**DockerHub**](https://hub.docker.com/r/mdaudt/astronet-image) e já possuí o código do **Astronet** e demais pacotes necessários para seu funcionamento, como o Python 3.6 e TensorFlow 1.15.0.
 
----
-
 ## Diretórios
 
 [astronet/](astronet/astronet/)
@@ -37,8 +35,6 @@ Para desenvolvimento dos experimentos do **Astronet**, foi criada uma imagem em 
 [third_party/](astronet/third_party/)
 
 * Utilitários derivados de código de terceiros.
-
----
 
 # Citação
 
